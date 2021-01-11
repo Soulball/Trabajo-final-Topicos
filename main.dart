@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Log in',
       theme: ThemeData(
-          brightness: Brightness.dark,
+          brightness: Brightness.light,
           primaryColor: Colors.redAccent[700],
           accentColor: Colors.redAccent[200]),
       initialRoute: "/",
